@@ -1,0 +1,8 @@
+# Тексты — с переводом строки LF, чтобы файлы одинаково выглядели на Windows и Linux.
+* text=auto eol=lf
+
+# Бинарные файлы: Git не должен их «нормализовать».
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary

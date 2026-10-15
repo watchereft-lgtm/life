@@ -1,0 +1,22 @@
+# Локальные окружения и зависимости — в репозиторий не идут.
+.venv/
+venv/
+.pylibs/
+.wheels/
+
+# Служебные файлы запуска.
+.port
+server.log
+server.pid
+
+# Кэш Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Системный мусор.
+.DS_Store
+Thumbs.db
+desktop.ini
